@@ -1,10 +1,6 @@
 #!/usr/bin/python3
-"""Square class
-
-This class is empty but someday it will contain more stuff... please check
-
 """
-
-
+Square Class
+"""
 class Square:
     pass
