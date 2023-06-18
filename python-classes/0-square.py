@@ -1,7 +1,7 @@
 #!/usr/bin/python3
+"""
+Square class
+This class is empty but someday it will contain more stuff... please check
+"""
 class Square:
-    """
-    Square class this is a square class but is empty
-    This class is empty but someday it will contain more stuff... please check
-    """
     pass
