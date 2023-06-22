@@ -122,7 +122,7 @@ class Rectangle:
                     str_rectangle += "\n"
             return str_rectangle
 
-    def repr(self):
+    def __repr__(self):
         """
 
         return representation of rectangle using eval
