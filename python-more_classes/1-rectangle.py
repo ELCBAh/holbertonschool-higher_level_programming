@@ -18,7 +18,9 @@ class Rectangle:
 
         Initializing values and checking
 
-        Args: width (int): width of the rectangle
+        Args:
+            width (int): width of the rectangle
+            height (int): height of the rectangle
 
         """
 
@@ -41,6 +43,10 @@ class Rectangle:
         setter for width
 
         Args: value (int): width of the rectangle
+
+        Raises:
+            TypeError: if value is not an integer
+            ValueError: if value is less than 0
 
         """
         if value != int:
@@ -66,6 +72,10 @@ class Rectangle:
         setter for height
 
         Args: value (int): height of the rectangle
+
+        Raises:
+            TypeError: if value is not an integer
+            ValueError: if value is less than 0
 
         """
         if value != int:
