@@ -121,10 +121,14 @@ class Rectangle:
                 if i != self.__height - 1:
                     str_rectangle += "\n"
             return str_rectangle
+
     def repr(self):
         """
 
         return representation of rectangle using eval
 
         """
-        return 'Rectangle(' + str(eval('self.width')) + ', ' + str(eval('self.height')) + ')'
+        w = str(eval('self.width'))
+        h = str(eval('self.height'))
+
+        return 'Rectangle(' + w + ', ' + h + ')'
