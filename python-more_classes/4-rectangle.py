@@ -127,4 +127,4 @@ class Rectangle:
         return representation of rectangle using eval
 
         """
-        return "Rectangle(" + str(eval("self.width")) + ", " + str(eval("self.height")) + ")"
+        return 'Rectangle(' + str(eval('self.width')) + ', ' + str(eval('self.height')) + ')'
