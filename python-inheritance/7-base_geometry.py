@@ -19,16 +19,14 @@ class BaseGeometry():
         validates value
 
         Args:
-            name: name
-            value: value to validate
+            name (str): name
+            value (int): value to validate
         Raises:
             TypeError: if value is not integer
             ValueError: if value is less than or equal to 0
-        Returns:
-            value if it passes the validation
         """
+
         if type(value) is not int:
             raise TypeError("{} must be an integer".format(name))
         if value <= 0:
             raise ValueError("{} must be greater than 0".format(name))
-        return value
