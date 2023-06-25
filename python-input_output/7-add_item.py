@@ -1,7 +1,4 @@
-#!/usr/bin/pyton3
-"""
-script that adds all arguments to a Py list and save in file
-"""
+#!/usr/bin/python3
 
 if __name__ == "__main__":
     save_to_json_file = __import__('5-save_to_json_file').save_to_json_file
