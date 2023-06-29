@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-'base' class for all other classes
+base class for all other classes
 
 manages id attribute in all future classes
 
@@ -9,6 +9,7 @@ avoid duplicating same code
 
 
 class Base:
+    """base defined"""
     __nb_objects = 0
 
     def __init__(self, id=None):
