@@ -6,9 +6,21 @@ from models.base import Base
 
 
 class Rectangle(Base):
-    """class Rectangle defined"""
+    """class Rectangle defined
+
+    Args:
+        Base (class): class Base
+    """
     def __init__(self, width, height, x=0, y=0, id=None):
-        """initialization"""
+        """initialized constructor
+
+        Args:
+            width (int)
+            height (int)
+            x (int)
+            y (int)
+            id (int)
+        """
         __width = width
         __height = height
         __x = x
