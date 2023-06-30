@@ -11,6 +11,7 @@ class Rectangle(Base):
     Args:
         Base (class): class Base
     """
+
     def __init__(self, width, height, x=0, y=0, id=None):
         """initialized constructor
 
@@ -68,6 +69,6 @@ class Rectangle(Base):
         """height setter"""
         if type(value) is not int:
             raise TypeError("height must be an integer")
-        if self.height <= 0:
+        if value <= 0:
             raise ValueError("height must be > 0")
         self.__height = value
