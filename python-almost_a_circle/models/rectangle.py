@@ -11,11 +11,11 @@ class Rectangle(Base):
     """class Rectangle defined"""
     def __init__(self, width, height, x=0, y=0, id=None):
         """initialization"""
-        super().__init__(id)
         __width = width
         __height = height
         __x = x
         __y = y
+        super().__init__(id)
 
     @property
     def width(self):
