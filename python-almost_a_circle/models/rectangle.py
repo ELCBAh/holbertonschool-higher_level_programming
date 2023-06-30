@@ -103,3 +103,15 @@ class Rectangle(Base):
     def area(self):
         """area of rectangle"""
         return self.width * self.height
+
+    def display(self):
+        """display string of rectangle"""
+        if self.__width == 0 or self.__height == 0:
+            print()
+        else:
+            for i in range(self.__height):
+                for j in range(self.__width):
+                    print("#", end="")
+                if i != self.__height - 1:
+                    print()
+            print()
