@@ -5,7 +5,7 @@ Lists cities of given database
 import sys
 import MySQLdb
 
-if __init__ == "__main__":
+if __name__ == "__main__":
     """
     Connecting to database and getting cities
     """
