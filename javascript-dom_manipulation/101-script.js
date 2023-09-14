@@ -6,7 +6,9 @@ document.addEventListener('DOMContentLoaded', function () {
   btnTranslate.addEventListener('click', function () {
     const lang = langCode.value;
     fetch(`https://hellosalut.stefanbohacek.dev/hello?lang=${lang}`)
-      .then(response => response.text())
-      .then(text => hello.innerHTML = text);
+      .then((response) => response.json())
+      .then((data) => {
+        hello.innerHTML = data.hello;
+      });
   });
 });
