@@ -3,6 +3,6 @@ document.addEventListener('DOMContentLoaded', function(){
     const header = document.querySelector('header');
 
     red_header.addEventListener('click', function(){
-        headerElement.classList.add('red');
+        header.classList.add('red');
     });
 });
